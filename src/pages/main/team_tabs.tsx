@@ -1,16 +1,17 @@
 import './team_tabs.css'
 import style from './main_page.module.css'
-
+import photo1 from './src/assets/team_image1.png'
+import photo2 from './src/assets/team_image2.png'
 export const Team = () => {
 
     const team = [
         {
-            img: './src/assets/team_image1.png',
+            img: photo1,
             title: 'Артемий Гузий',
             content: 'Гузий Артемий Евгеньевич, 33 года, Омск Образование: юридическое Омский юридический институт (2012) Ныне обучаюсь в магистратуре Высшей школы экономики, направление «Современные социальные науки в преподавании обществознания в школе» (2025)',
         },
         {
-            img: './src/assets/team_image2.png',
+            img: photo2,
             title: 'Егор Зазворка',
             content: '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~',
         },
