@@ -1,0 +1,96 @@
+/* ------------Custom fonts------------------ */
+/* Regular */
+@font-face {
+	font-family: 'Ubuntu Mono';
+	font-style: normal;
+	font-weight: normal;
+  src: url('/src/assets/fonts/UbuntuMono-Regular.ttf') format('ttf'),
+    url('/src/assets/fonts/UbuntuMono-Regular.woff2') format('woff2'),
+    url('/src/assets/fonts/UbuntuMono-Regular.woff') format('woff'),
+    url('/src/assets/fonts/UbuntuMono-Regular.svg') format('svg'),
+}
+/* Bold */
+@font-face {
+	font-family: 'Ubuntu Mono';
+	font-style: normal;
+	font-weight: bold;
+	src: url('/src/assets/fonts/UbuntuMono-Bold.ttf') format('ttf'),
+    url('/src/assets/fonts/UbuntuMono-Bold.woff2') format('woff2'),
+    url('/src/assets/fonts/UbuntuMono-Bold.woff') format('woff'),
+    url('/src/assets/fonts/UbuntuMono-Bold.svg') format('svg'),
+}
+/* Italic */
+@font-face {
+	font-family: 'Ubuntu Mono';
+	font-style: italic;
+	font-weight: normal;
+  src: url('/src/assets/fonts/UbuntuMono-Italic.ttf') format('ttf'),
+    url('/src/assets/fonts/UbuntuMono-Italic.woff2') format('woff2'),
+    url('/src/assets/fonts/UbuntuMono-Italic.woff') format('woff'),
+    url('/src/assets/fonts/UbuntuMono-Italic.svg') format('svg'),
+}
+/* Bold-italic */
+@font-face {
+	font-family: 'Ubuntu Mono';
+	font-style: italic;
+	font-weight: bold;
+  src: url('/src/assets/fonts/UbuntuMono-BoldItalic.ttf') format('ttf'),
+    url('/src/assets/fonts/UbuntuMono-BoldItalic.woff2') format('woff2'),
+    url('/src/assets/fonts/UbuntuMono-BoldItalic.woff') format('woff'),
+    url('/src/assets/fonts/UbuntuMono-BoldItalic.svg') format('svg'),
+}
+/* ^^^^^^^^^^^^Custom fonts^^^^^^^^^^^^^^^^^^ */
+
+
+/* ------------Standart styles------------------ */
+:root {
+  font-family: 'Ubuntu Mono';
+	font-style: normal;
+	font-weight: normal;
+  line-height: 1.5;
+
+  color: #231E18;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#root{
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  font-weight: 500;
+  color: #3c45fd;
+  font-size: 48px;
+  text-decoration: none;
+}
+a:hover {
+  color: #6971ff;
+  text-decoration: underline;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  display: flex;
+  place-items: stretch flex-start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  background-color: #0077ff;
+}
+
+
+::-webkit-scrollbar{
+  width: 10px;
+  background-color: #f5e0d2;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #302012;
+    border-radius: 10px;
+}
+/* ^^^^^^^^^^^^Standart styles^^^^^^^^^^^^^^^^^^ */

@@ -1,0 +1,77 @@
+.tabs {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    transition: padding-bottom 0.5s;
+    text-align: left;
+}
+.tabs img{
+    border-radius: 50%;
+    width: 296px;
+    height: 296px;
+    transition: outline 0.25s , width 0.25s , height 0.25s, transform 0.25s;
+}
+.tabs img:hover {
+    transform: scale(98%);
+    outline: 5px solid rgb(124, 124, 124);
+    outline-offset: 5px;
+}
+.tab .tab-title {
+    display: inline-block;
+    transition: background-color 0.5s;
+}
+.tab img{
+    width: 20vw;
+    height: 20vw;
+}
+.tab input[type="radio"] { display: none; }
+.tab-title {
+    background: #ffffff; 
+    padding: 20px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom: none;
+}
+.tab-content {
+    position: absolute;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    padding: 16px; 
+    left: 0; 
+    /* background-color: #F5C3A0; */
+    opacity: 0; 
+    visibility: hidden;
+    
+    
+    color: #000000;
+    font-family: "Ubuntu Mono";
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    word-wrap: break-word;
+    transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+}
+.tab-content span{
+    color: #000000;
+    font-family: "Ubuntu Mono";
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: normal;
+    word-break: break-all;
+}
+.tab :hover + .tab-title {
+    position: relative;
+    
+    z-index: 1;
+}
+.tab :hover ~ .tab-content {
+    position: absolute;
+    opacity: 1; 
+    visibility: visible;
+    transition-delay: 0s;
+}
+.tabs:has(.tab :hover) {
+    padding-bottom: 240px;
+}

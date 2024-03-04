@@ -1,0 +1,188 @@
+.header{
+    height: 100px;
+    background-color: #7C3A0A;
+    width: 100%;
+    position: relative;
+
+    color: #ffffff;
+    font-family: "Ubuntu Mono";
+    font-size: 32px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: normal;
+
+    display: grid;
+    grid-template-columns: 620px auto auto;
+    row-gap: 100px;
+}
+.body{
+    width: 100%;
+    display: flex;
+    place-items: flex-start flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: left;
+    height: calc(100vh - 190px);
+}
+
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+.main_title{
+    font-size: 44px;
+}
+.logo_div{
+    padding:42px;
+    gap: 40px;
+    display: flex;
+    place-items: center flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+
+    color: #ffffff;
+    font-family: "Ubuntu Mono";
+    font-size: 32px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: normal;
+
+}
+.logo_div *{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    text-align: start;
+}
+.logo_div p{
+    font-size: 36px;
+}
+.main_title{
+    color: #ffffff;
+    font-family: "Ubuntu Mono";
+    font-size: 48px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: normal;
+}
+.head_div{
+    display: grid;
+    grid-template-columns: 444px auto auto;
+    row-gap: 100px;
+   
+    margin: 32px 48px 32px 32px;
+
+    color: #ffffff;
+    font-family: Ubuntu Mono;
+    font-size: 32px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: normal;
+
+}
+.menu_tab{
+    display: flex;
+    place-items: center flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+
+    color: #ffffff;
+    font-family: "Ubuntu Mono";
+    font-size: 32px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: normal;
+    user-select: none;
+}
+#menu_tab{
+    justify-self: center;
+
+}
+#sign{
+    text-align: right;
+    justify-self: flex-end;
+    margin: 32px;
+}
+.menu_tab a{
+    color: #ffffff;
+    font-family: "Ubuntu Mono";
+    font-size: 32px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: normal;
+    user-select: none;
+}
+.menu_tab hr{
+    width: 0px;
+    height: 40px;
+    margin: 0;
+    border: 1px solid rgb(255, 255, 255);
+}
+.menu{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    padding: 0;
+    height: 48px;
+    font-size: 26px;
+    color: #ffffff;
+    font-family: "Ubuntu Mono";
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    user-select: none;
+    cursor: pointer;
+    transition: transform 0.35s;
+}
+
+.menu:hover{
+    transform: scale(120%);
+}
+
+
+
+.leftMenu{
+    width: 263px; 
+    background: #FDF4E3; 
+    border-radius: 20px; 
+    border: 1px black solid;
+    padding: 14px;
+    margin: 100px 34px 100px;
+}
+
+.leftMenu ul{
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+    text-align: center; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Ubuntu Mono; 
+    word-wrap: break-word;
+}
+.leftMenu li:hover{
+    background-color: #f3cfb5;
+    border-radius: 20px;
+}
+
+.news h1{
+    width: 235px; 
+    height: 35px; 
+    text-align: center; 
+    color: black; 
+    font-size: 51px; 
+    font-family: "Ubuntu Mono"; 
+    word-wrap: break-word;
+    padding-bottom: 34px;
+}
+
+.news p{
+    height: 35px; 
+    text-align: center; 
+    color: black; 
+    font-size: 25px; 
+    font-family: "Ubuntu Mono"; 
+}
