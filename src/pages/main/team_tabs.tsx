@@ -1,7 +1,7 @@
 import './team_tabs.css'
 import style from './main_page.module.css'
-import photo1 from './src/assets/team_image1.png'
-import photo2 from './src/assets/team_image2.png'
+import photo1 from '../../assets/team_image1.png'
+import photo2 from '../../assets/team_image2.png'
 export const Team = () => {
 
     const team = [
