@@ -1,20 +1,24 @@
 import style from './main_page.module.css'
 
+import content_icon4_img from "../../assets/content_icon4.png"
+import content_icon5_img from "../../assets/content_icon5.png"
+import content_icon6_img from "../../assets/content_icon6.png"
+
 export const Content1 = () => {
 
     const subjects = [
         {
-            img: 'src/assets/content_icon4.png',
+            img: content_icon4_img,
             title: 'История',
             content: '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~',
         },
         {
-            img: 'src/assets/content_icon5.png',
+            img: content_icon5_img,
             title: 'Обществознание',
             content: '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~',
         },
         {
-            img: 'src/assets/content_icon6.png',
+            img: content_icon6_img,
             title: 'Право',
             content: '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~',
         },
