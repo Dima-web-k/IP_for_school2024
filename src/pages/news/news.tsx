@@ -3,6 +3,8 @@ import './news.css'
 import { CustomBorderHead } from '../../custom_borders'
 import { Link } from "react-router-dom";
 
+import logo_img from "../../assets/logo.png"
+
 export default function News_Page() {
   let title= document.getElementById('head_title')!
   title.textContent='Новости'
@@ -12,7 +14,7 @@ export default function News_Page() {
         <header className='header'>
 
             <div className='logo_div'>
-                <img src="/src/assets/Logo.png" className='logo'/>
+                <img src={logo_img} className='logo'/>
                 <p> 
                     <span className='main_title'> НОВОЕ МЫШЛЕНИЕ </span> <br/>
                     Школа общественных наук

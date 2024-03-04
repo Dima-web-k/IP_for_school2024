@@ -6,6 +6,14 @@ import { Content1 } from './content1'
 import { Link } from "react-router-dom";
 
 
+import logo_img from "../../assets/logo.png"
+import arrow_down_img from "../../assets/arrow_down.png"
+import content_icon1_img from "../../assets/content_icon1.png"
+import content_icon2_img from "../../assets/content_icon2.png"
+import content_icon3_img from "../../assets/content_icon3.png"
+import avatar_default_img from "../../assets/avatar_default.png"
+import cup_img from "../../assets/cup.png"
+
 export default function MainPage() {
   let title= document.getElementById('head_title')!
   title.textContent='"Новое мышление" - Школа общественных наук'
@@ -18,7 +26,7 @@ export default function MainPage() {
         <div className={style.mainpage_head_div}>
 
           <div className={style.mainpage_logo_div}>
-            <img src="/src/assets/logo.png" className={style.mainpage_logo}/>
+            <img src={logo_img} className={style.mainpage_logo}/>
             <p> 
               <span className={style.mainpage_main_title}> НОВОЕ МЫШЛЕНИЕ </span> <br/>
               Школа общественных наук
@@ -48,7 +56,7 @@ export default function MainPage() {
 
 
         <a href='#body_div'>
-          <img src="/src/assets/arrow_down.png" className={style.mainpage_arrow}/>
+          <img src={arrow_down_img} className={style.mainpage_arrow}/>
         </a>
         
       </header>
@@ -66,21 +74,21 @@ export default function MainPage() {
           <div className={style.mainpage_principle}>
 
             <div>
-              <img src="src/assets/content_icon1.png"/>
+              <img src={content_icon1_img}/>
               <p> 
                 Интересно
               </p>
             </div>
             <hr/>
             <div>
-              <img src="src/assets/content_icon2.png"/>
+              <img src={content_icon2_img}/>
               <p> 
                 Понятно
               </p>
             </div>
             <hr/>
             <div>
-              <img src="src/assets/content_icon3.png"/>
+              <img src={content_icon3_img}/>
               <p> 
                 С душой
               </p>
@@ -99,7 +107,7 @@ export default function MainPage() {
             <div className={style.mainpage_reviews}>
               <div className={style.mainpage_review}>
               <section>
-                <img src="src/assets/avatar_default.png"/>
+                <img src={avatar_default_img}/>
                 <p className={style.mainpage_name}>
                   <span>Иванов Иван</span> <br/>
                   призер ВСОШ по праву
@@ -111,7 +119,7 @@ export default function MainPage() {
               </div>
               <div className={style.mainpage_review}>
                 <section>
-                  <img src="src/assets/avatar_default.png"/>
+                  <img src={avatar_default_img}/>
                   <p className={style.mainpage_name}>
                     <span>Иванов Иван</span> <br/>
                     призер ВСОШ по праву
@@ -123,7 +131,7 @@ export default function MainPage() {
               </div>
               <div className={style.mainpage_review}>
                 <section>
-                  <img src="src/assets/avatar_default.png"/>
+                  <img src={avatar_default_img}/>
                   <p className={style.mainpage_name}>
                     <span>Иванов Иван</span> <br/>
                     призер ВСОШ по праву
@@ -134,7 +142,7 @@ export default function MainPage() {
                 </p>
               </div>
             </div>
-            <img className={style.mainpage_cup} src="src/assets/cup.png"/>
+            <img className={style.mainpage_cup} src={cup_img}/>
           </div>
           {/* <CustomBorder2_RT/> */}
         </div>
